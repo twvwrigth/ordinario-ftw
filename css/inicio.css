@@ -14,17 +14,13 @@ body {
 nav {
     background-color: #2b2b2b;
     padding: 10px 40px;
-    /* Reduje un poco el padding de arriba/abajo para que no quede tan grueso */
     position: sticky;
     top: 0;
     z-index: 1000;
 
-    /* --- ESTO MANDA EL LOGO A LA IZQUIERDA Y ENLACES A LA DERECHA --- */
     display: flex;
     justify-content: space-between;
-    /* Separa los elementos a los extremos */
     align-items: center;
-    /* Centra verticalmente el logo y los textos */
     flex-wrap: wrap;
 }
 
@@ -115,8 +111,8 @@ p {
 
 .cuadriculo-galeria {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Columnas responsivas automáticas */
-    gap: 15px; /* Espaciado entre fotos */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 15px;
     padding: 10px;
 }
 
@@ -125,5 +121,5 @@ p {
     margin: 0;
     width: 100%;
     height: 250px;
-    object-fit: cover; /* Recorta la imagen para que todas midan lo mismo sin deformarse */
+    object-fit: cover;
 }
