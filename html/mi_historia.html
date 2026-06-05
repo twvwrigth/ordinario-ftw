@@ -1,35 +1,71 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio - Travis Scott</title>
+    <title>Mi Historia - Travis Scott</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="../css/inicio.css">
 </head>
-
 <body>
 
     <nav>
         <img src="../img/logo-cactus-jack.png" alt="Logo Cactus Jack" class="logo">
-        <a href="../index.html"><i class="fa-solid fa-house"></i> Inicio</a>
+        <a href="../inicio.html"><i class="fa-solid fa-house"></i> Inicio</a>
         <a href="biografia.html"><i class="fa-solid fa-pen"></i> Biografia</a>
         <a href="discografia.html"><i class="fa-solid fa-compact-disc"></i> Discografía</a>
         <a href="estilo.html"><i class="fa-solid fa-fire"></i> Cactus Jack</a>
         <a href="giras.html"><i class="fa-solid fa-calendar"></i> Giras</a>
         <a href="galeria.html"><i class="fa-solid fa-images"></i> Galería</a>
         <a href="mi_historia.html"><i class="fa-solid fa-book"></i> Mi Historia</a>
+        
         <div class="firma-autor">Por: Martinez Galicia José Emmanuel</div>
     </nav>
 
-    <main>
-        <h1>Mi Historia</h1>
-        <img src="../img/travis-historia.jpg" alt="Travis Scott" class="imagen">
-        <p>Aqui se va a mostrar mi historia personal.</p>
-        <p>Status: En desarrollo</p>
+    <main style="padding: 20px; max-width: 800px; margin: 0 auto; color: #fff; text-align: center;">
+        <h1>Mi Historia Musical</h1>
+        <p>Descubre cómo la música de Travis Scott impactó mi vida personal, mis estudios y mi disciplina a través de diferentes etapas.</p>
+
+        <!-- Botones Interactivos para cambiar de sección (Punto 1 de la Rúbrica) -->
+        <div style="margin: 25px 0;">
+            <button class="btn-navegacion" onclick="cambiarSeccion('prepa')" style="background: #d4af37; color: #000; border: none; padding: 10px 15px; font-weight: bold; margin: 5px; cursor: pointer; border-radius: 4px;">1. La Preparatoria</button>
+            <button class="btn-navegacion" onclick="cambiarSeccion('gimnasio')" style="background: #222; color: #fff; border: 1px solid #444; padding: 10px 15px; font-weight: bold; margin: 5px; cursor: pointer; border-radius: 4px;">2. El Gimnasio y Disciplina</button>
+            <button class="btn-navegacion" onclick="cambiarSeccion('universidad')" style="background: #222; color: #fff; border: 1px solid #444; padding: 10px 15px; font-weight: bold; margin: 5px; cursor: pointer; border-radius: 4px;">3. La Universidad</button>
+            <button class="btn-navegacion" onclick="cambiarSeccion('conclusión')" style="background: #222; color: #fff; border: 1px solid #444; padding: 10px 15px; font-weight: bold; margin: 5px; cursor: pointer; border-radius: 4px;">4. Conclusión</button>
+        </div>
+
+        <hr style="border: 1px solid #333; margin: 20px 0;">
+
+        <section id="sec-prepa" style="background: #111; padding: 25px; border-radius: 8px; border: 1px solid #333; text-align: left;">
+            <h2 style="color: #d4af37; margin-top:0;">El Descubrimiento en la Prepa</h2>
+            <p>Descubrí a Travis Scott en mi etapa preparatoria. Me encontraba en un momento dificil en mi vida tras el fallecimiento de mi mamita (Mi abuela que fue quien me crió). Por esto mismo mis calificaciones decayeron y estuve apunto de abandonar la escuela. Canciones como <strong>"90210"</strong> y <strong>"Skeletons"</strong> me abrieron la mente por completo gracias a su narrativa, su ritmo y producción tan experimental.</p>
+            <p>Escuchar este tipo de música mientras estudiaba me ayudaba a concentrarme durante las noches largas de tareas, todo esto desperto en mi una gran curiosidad por la tecnología, la creatividad y el desarrollo de proyectos complejos. Pero sobre todo, me ayudo a salir adelante.</p>
+        </section>
+
+        <!-- Sección 2: Gimnasio (Oculta al inicio) -->
+        <section id="sec-gimnasio" style="background: #111; padding: 25px; border-radius: 8px; border: 1px solid #333; text-align: left; display: none;">
+            <h2 style="color: #d4af37; margin-top:0;">Motivación y Enfoque en el Gimnasio</h2>
+            <p>Hubo momentos difíciles donde la presión y el estrés acumulado se volvían pesados. Fue ahí donde la música de Travis se convirtió en un pilar fundamental para mí.</p>
+            <p>Temas energéticos como <strong>"SICKO MODE"</strong>, <strong>"Antidote"</strong> o la fuerza de <strong>"Till Further Notice"</strong> me impulsaron a canalizar toda esa energía en el gimnasio. Me dieron la disciplina para levantarme, entrenar duro diariamente y entender que la constancia física también se refleja en lo mental, en lo academico y en lo perosnal.</p>
+        </section>
+
+        <!-- Sección 3: Universidad (Oculta al inicio) -->
+        <section id="sec-universidad" style="background: #111; padding: 25px; border-radius: 8px; border: 1px solid #333; text-align: left; display: none;">
+            <h2 style="color: #d4af37; margin-top:0;"><i class="fa-solid fa-graduation-cap"></i> Proyecto de Vida en la Universidad</h2>
+            <p>Hoy en día, cursando la carrera de ingeniería en sistemas y tecnologias de la información, su álbum <strong>"Utopia"</strong> y en especial la canción <strong>"MY EYES"</strong> me recuerdan constantemente la importancia de la evolución y de no perder el enfoque.</p>
+            <p>Su música es el soundtrack de fondo ideal que pongo en mis audífonos cada vez que me siento a estudiar, documentar redes o diseñar bases de datos. Me motiva a mantener la meta fija en terminar mi carrera profesional con excelencia y seguir construyendo mi propio camino.</p>
+        </section>
+
+        <!-- Sección Conclusión (Oculta al inicio) -->
+        <section id="conclusión" style="background: #111; padding: 25px; border-radius: 8px; border: 1px solid #333; text-align: left; display: none;">
+            <h2 style="color: #d4af37; margin-top:0;">Conclusión</h2>
+            <p>Travis Scott no es solo un artista para mí, es una fuente constante de inspiración y motivación. Su música ha sido el hilo conductor que me ha acompañado en los momentos más difíciles y también en los más exitosos de mi vida. Gracias a él, he aprendido a enfrentar los retos con energía, a mantener la disciplina y a nunca perder de vista mis objetivos.</p>
+            <p>En definitiva, su impacto en mi vida va más allá de lo musical, es una influencia que me ha ayudado a crecer como persona y un recordatorio constante de lo que fui y lo que soy hoy en dia.</p>
+        </section>
+
     </main>
 
+    <!-- SCRIPT EXCLUSIVO PARA ESTA PÁGINA -->
+    <script src="../javaScript/historia.js"></script>
 </body>
-
 </html>
