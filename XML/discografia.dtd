@@ -1,0 +1,6 @@
+<!ELEMENT discografia (album+)>
+<!ELEMENT album (titulo, año, canciones, tipo)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
+<!ELEMENT canciones (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>

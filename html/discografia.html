@@ -4,33 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio - Travis Scott</title>
+    <title>Discografía - Travis Scott</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="../css/inicio.css">
 </head>
 
 <body>
 
-<nav>
-    <img src="../img/logo-cactus-jack.png" alt="Logo Cactus Jack" class="logo">
-    <a href="../index.html"><i class="fa-solid fa-house"></i> Inicio</a>
-    <a href="biografia.html"><i class="fa-solid fa-pen"></i> Biografia</a>
-    <a href="discografia.html"><i class="fa-solid fa-compact-disc"></i> Discografía</a>
-    <a href="estilo.html"><i class="fa-solid fa-fire"></i> Cactus Jack</a>
-    <a href="giras.html"><i class="fa-solid fa-calendar"></i> Giras</a>
-    <a href="galeria.html"><i class="fa-solid fa-images"></i> Galería</a>
-    <a href="mi_historia.html"><i class="fa-solid fa-book"></i> Mi Historia</a>
-    <div class="firma-autor">Por: Martinez Galicia José Emmanuel</div>
-</nav>
+    <nav>
+        <img src="../img/logo-cactus-jack.png" alt="Logo Cactus Jack" class="logo">
+        <a href="../inicio.html"><i class="fa-solid fa-house"></i> Inicio</a>
+        <a href="biografia.html"><i class="fa-solid fa-pen"></i> Biografia</a>
+        <a href="discografia.html"><i class="fa-solid fa-compact-disc"></i> Discografía</a>
+        <a href="estilo.html"><i class="fa-solid fa-fire"></i> Cactus Jack</a>
+        <a href="giras.html"><i class="fa-solid fa-calendar"></i> Giras</a>
+        <a href="galeria.html"><i class="fa-solid fa-images"></i> Galería</a>
+        <a href="mi_historia.html"><i class="fa-solid fa-book"></i> Mi Historia</a>
+        <div class="firma-autor">Por: Martinez Galicia José Emmanuel</div>
+    </nav>
 
-    <main>
-        <h1>Discografía - Travis Scott</h1>
-        <img src="../img/travis-discografia.jpg" alt="Discografía de Travis Scott" class="imagen">
-        <p>En esta pagina se va a mostrar la discografía de Travis Scott y Una seccion de mis favoritas</p>
-        <p>Status: En desarrollo</p>
+    <main style="padding: 20px; max-width: 900px; margin: 0 auto; color: #fff; text-align: center;">
+        <img src="../img/travis-discografia.jpg" alt="Discografía de Travis Scott"
+            style="width: 100%; max-width: 600px; border-radius: 10px; margin-bottom: 20px;">
+        <h1>Discografía Oficial</h1>
+        <p>Explora los proyectos discográficos de Travis Scott cargados dinámicamente desde XML.</p>
 
+        <div style="margin: 20px 0;">
+            <button onclick="filtrarDiscos('TODOS')"
+                style="padding: 10px 15px; margin: 5px; cursor: pointer; font-weight: bold;">Todos los
+                Proyectos</button>
+            <button onclick="filtrarDiscos('Estudio')"
+                style="padding: 10px 15px; margin: 5px; cursor: pointer; font-weight: bold;">Álbumes de Estudio</button>
+            <button onclick="filtrarDiscos('Colaborativo')"
+                style="padding: 10px 15px; margin: 5px; cursor: pointer; font-weight: bold;">Colaborativos /
+                Mixtapes</button>
+        </div>
+
+        <hr style="border: 1px solid #333; margin: 20px 0;">
+
+        <div id="tabla-contenedor" style="overflow-x: auto;">
+            <p style="color: #888;">Cargando discografía...</p>
+        </div>
     </main>
 
+    <script src="../javaScript/main.js"></script>
 </body>
 
 </html>

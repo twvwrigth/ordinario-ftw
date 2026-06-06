@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE discografia SYSTEM "discografia.dtd">
+<discografia>
+    <album>
+        <titulo>Rodeo</titulo>
+        <año>2015</año>
+        <canciones>16 canciones (Ej: 90210, Antidote, 3500)</canciones>
+        <tipo>Estudio</tipo>
+    </album>
+    <album>
+        <titulo>Birds in the Trap Sing McKnight</titulo>
+        <año>2016</año>
+        <canciones>14 canciones (Ej: Goosebumps, Pick Up the Phone)</canciones>
+        <tipo>Estudio</tipo>
+    </album>
+    <album>
+        <titulo>Huncho Jack, Jack Huncho</titulo>
+        <año>2017</año>
+        <canciones>13 canciones (Ej: Black &amp; Chinese, Dubai Shit)</canciones>
+        <tipo>Colaborativo</tipo>
+    </album>
+    <album>
+        <titulo>Astroworld</titulo>
+        <año>2018</año>
+        <canciones>17 canciones (Ej: SICKO MODE, Stargazing, Butterfly Effect)</canciones>
+        <tipo>Estudio</tipo>
+    </album>
+    <album>
+        <titulo>Jackboys</titulo>
+        <año>2019</año>
+        <canciones>7 canciones (Ej: OUT WEST, GATTI)</canciones>
+        <tipo>Colaborativo</tipo>
+    </album>
+    <album>
+        <titulo>Utopia</titulo>
+        <año>2023</año>
+        <canciones>19 canciones (Ej: MY EYES, FE!N, I KNOW ?)</canciones>
+        <tipo>Estudio</tipo>
+    </album>
+</discografia>
