@@ -7,12 +7,12 @@
 ---
 
 ## Enlaces del Proyecto
-* **Sitio Web en GitHub Pages:** [text](https://twvwrigth.github.io/ordinario-ftw/)
-* **Video Demostrativo en YouTube:** [text](https://youtu.be/NVdstM4l5_w)
+* **Sitio Web en GitHub Pages:** [GithubPages](https://twvwrigth.github.io/ordinario-ftw/)
+* **Video Demostrativo en YouTube:** [VideoExplicativo](https://youtu.be/NVdstM4l5_w)
 
 ---
 
-## 🛠️ Elementos Implementados (Cumplimiento de Rúbrica)
+## Elementos Implementados (Cumplimiento de Rúbrica)
 
 1. **Estructura Semántica (10 Páginas/Secciones):** Uso estricto de etiquetas HTML5 como `<nav>`, `<main>`, `<section>`.
 2. **Formularios e Interactividad (JS):** Calculadora de boletos interactiva con lectura de teclado en tiempo real en la sección de Giras.
@@ -21,6 +21,7 @@
 5. **Diseño Responsivo:** Implementación de Media Queries (`@media`) en el archivo CSS para asegurar que el sitio se adapte correctamente a pantallas de teléfonos móviles.
 ---
 **mokup:**
+
 +---------------------------------------------------------------+
 |  LOGO  |  ¡Mi Historia con la Música de Travis Scott!         |
 |--------|                                                      |
@@ -32,6 +33,7 @@
 |        |                                                      |
 | Autor  |  (Secciones interactivas ocultadas/mostradas con JS) |
 +---------------------------------------------------------------+
+
 ---
 **Prompts de Inteligencia Artificial Utilizados**
 En cumplimiento con el criterio de documentación de la rúbrica, se listan los principales esquemas de prompts utilizados en modelos de lenguaje para el desarrollo técnico del sitio:
